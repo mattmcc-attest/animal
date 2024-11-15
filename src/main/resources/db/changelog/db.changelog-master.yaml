@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: matthew
+      description: "Create dog table"
+      sqlFile:
+        path: classpath:db/changelog/0001-initial-database.sql
